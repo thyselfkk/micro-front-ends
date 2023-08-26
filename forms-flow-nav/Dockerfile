@@ -1,5 +1,6 @@
 # base image
 FROM node:16.20.1-alpine as build-stage
+#maybe node hdrogen
 
 # set working directory
 WORKDIR /forms-flow-nav/app
